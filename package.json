@@ -1,36 +1,71 @@
 {
-  
+  
+
+
     "name": "seu-projeto",
-  
+  
+
+
     "version": "1.0.0",
-  
+  
+
+
     "scripts": {
-  
-      
+  
+
     "start": "tsc && node ./dist/app.js"
-  
+
+
     },
-  
+  
+
+
     "dependencies": {
-  
-      
+  
+
+
+      
+
+
     "dayjs": "^1.11.9",
-  
-      
+  
+
+
+      
+
+
     "mysql": "^2.18.1",
-  
-      
+  
+
+
+      
+
+
     "pg": "^8.11.3"
-  
+  
+
+
     },
-  
+  
+
+
     "devDependencies": {
-  
-      
+  
+
+
+      
+
+
     "@types/pg": "^8.10.2",
-  
-      
+  
+
+
+      
+
+
     "typescript": "^5.2.2"
-  
+  
+
+
     }
 }
