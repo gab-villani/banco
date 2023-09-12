@@ -31,7 +31,7 @@ class BancoSpi100forSpi200 {
                 await conexaoBanco1.connect();
                 console.log('Conectado ao banco de dados de origem');
                 const resultados = await conexaoBanco1.query(consultaOrigem);
-                console.log('Resultados da consulta de origem:', resultados.rows);
+                // console.log('Resultados da consulta de origem:', resultados.rows);
                 // Inserir resultados no banco de destino (banco 2)
                 await conexaoBanco2.connect();
                 console.log('Conectado ao banco de dados de destino');
